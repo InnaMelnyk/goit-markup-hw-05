@@ -558,10 +558,16 @@ display: flex;
    width: 453px;
    height: 80px;
 }
-.bottom-field{
-   display: flex;
-   
-}
+
+
+.foot-form:{display: flex;}
+
+
+
+.foot-label{
+   gap:24px;
+}  
+
 
 .foot-right-title{
    font-weight: 500;
