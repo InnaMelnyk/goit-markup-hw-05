@@ -559,13 +559,15 @@ display: flex;
    height: 80px;
 }
 
-
-.foot-form:{display: flex;}
+.foot-form{
+   display: flex;
+   gap: 24px;
+}
 
 
 
 .foot-label{
-   gap:24px;
+   
 }  
 
 
@@ -586,7 +588,7 @@ display: flex;
    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
    background-color:transparent;
    padding-left: 16px;
-   margin-right: 24px;
+   color:#ffffff
 }
 
 .foot-input::placeholder{
@@ -595,21 +597,28 @@ display: flex;
       line-height: 2;
       letter-spacing: 0.04em;
       color: #fff;
-}
+      padding: 8px 16px;
+      }
+
 
 .foot-subscr-btn{display: flex;
+   min-width: 165px;
    align-items: center;
    justify-content: center;
-   flex-direction: row;
-   gap: 16px;
+ gap: 16px;
 border-radius: 4px;
-   padding: 8px 24px;
-   width: 165px;
-   height: 40px;
+padding: 8px 24px;
+   font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+height: 40px;
 background: #4d5ae5;
 color: #fff;
 margin-right: 16px;
-border: none;}
+border: none;
+cursor: pointer;}
 
 .foot-subscr-icon{
    fill: #fff;
